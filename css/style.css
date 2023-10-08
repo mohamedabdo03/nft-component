@@ -405,7 +405,7 @@ grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   border-radius: 12px;
   transform: translateX(-50%);
 font-size: 20px;
-transition: 0.8s;
+/* transition: 0.8s; */
 } 
 .equ .contents .image-main:hover::before{ 
   width: 100%;
@@ -425,8 +425,8 @@ transition: 0.8s;
   text-align: center;
   font-size: 30px;
   color: white;
-  transition-duration: 0.4.7s;
-  transition-delay: 0.3s;
+/*   transition-duration: 0.4.7s;
+  transition-delay: 0.3s; */
   opacity:0 ;
 }
 .equ .contents .image-main:hover::after{
