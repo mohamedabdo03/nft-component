@@ -1,0 +1,59 @@
+/* Making A Progress Bar Skill */
+/* First HTML code Should Be Like this ==> */
+
+/* <div class="progresss-holder">
+                    <h4>HTML</h4>
+                    <div class="progresss-bar">
+                        <span style="width: 80%;" data-progress="80%"></span>
+                    </div>
+                </div> */
+
+
+
+
+
+
+                 /* Ribbon  
+                 HTML code Just put a empty span after the box div of PLAN AND GIVE SPAN A CLASS To be specifiy
+.pricing  .price-plan .ribbon-value{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top:-20px;
+    right: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 10px;
+    }
+    .pricing  .price-plan .ribbon-value::before{
+      content: "Best Value";
+      width: 150%;
+      height: 40px;
+      background-color: var(--alt-color);
+      position: absolute;
+      transform: rotate(45deg) translateY(-20px);
+      text-transform: uppercase;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      letter-spacing: 2px;
+      font-weight: bold;
+      box-shadow: 0 5px  10px rgba(0,0,0,0.6);
+    }
+    .pricing  .price-plan .ribbon-value::after{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: var(--main-color);
+    bottom:130px;
+    left:0;
+    z-index: -1;
+    box-shadow:130px 130px var(--main-color);
+     Vlaue of Boax Shadow is the Original Height - After's:: Width 
+     150px - 20px = 170px
+    }
+     End of Ribbon  */

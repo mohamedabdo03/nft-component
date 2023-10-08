@@ -1,0 +1,54 @@
+/* Padding and Margins  */
+.p-l{
+    padding-left: 30px;
+}
+.p-r{
+    padding-right: 30px;
+}
+/* End and Margins  */
+/* Positions  and Displays*/
+.pos-r{
+    position: relative;
+}
+.pos-a{
+    position: absolute;
+}
+.d-flex{
+    display: flex;
+}
+.jc-sb{
+    justify-content: space-between;
+}
+.jc-c{
+    justify-content: center;
+}
+.align-c{
+    align-items: center;
+}
+.flexw-w{
+    flex-wrap: wrap;
+}
+.padt-100{
+    padding-top:100px;
+}
+.padb-100{
+    padding-bottom:100px;
+}
+.d-grid{
+display: grid;
+}
+.flex-one{
+    flex: 0.5;
+}
+/*  End Positions */
+/* Fonts And Colors  */
+.fs-25{
+    font-size: 25px;
+}
+.fw-b{
+font-weight: bold;
+}
+.bg-white{
+    background-color: white;
+}
+/* eND And Colors  */
